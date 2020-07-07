@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(image/background1.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.mulai {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.mulai:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(43, 151, 65, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.menu-icon {
+  display:none;
+  color:white;
+  float:right;
+  font-size:25px;
+  padding:21px 0;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 7px 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  font-weight: bold;
+}
+
+.btn-active{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.registration-wrapper{
+  margin-top: 80px;
+}
+
+.login-wrapper{
+  margin-top: 80px;
+}
+
+
+.registration-form {
+  padding-top: 76px;
+  padding-left: 50px;
+}
+.login-form {
+  padding-top: 76px;
+  padding-left: 50px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+input, textarea{
+  width: 400px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  padding: 3px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.form-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contact-form {
+  padding-top: 76px;
+  padding-left: 50px;
+}
+
+.kirim, .masuk, .daftar{
+  padding: 15px 40px;
+  background-color: #219516;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* information-wrapper */
+.information-wrapper {
+  text-align:center;
+  background-color:#e0e0d1;
+}
+
+.information-wrapper p{
+  padding-bottom:10px;
+}
+
+.partner {
+  margin-bottom:20px;
+  float:left;
+  height:100%;
+  width:25%;
+}
+
+.partner-icon {
+  height:100%;
+  width:50%;
+  line-height:100%;
+}
+
+
+.heading-information {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: black;
+}
+
+.heading-information h2,h3{
+  font-weight: normal;
+}
+
+.logo-footer {
+  width: 90px;
+  margin: 12px 14px;
+}
+
+
+/* news wrapper */
+.news-wrapper {
+  background-color:#d6d6c2;
+  height:100%;
+}
+
+.news {
+  position: relative;
+  padding:0 15%;
+  background-color:#d6d6c2;
+  font-size: 14px;
+  font-family: nerislight !important;
+  font-size: 17px;
+}
+
+.news-title {
+  font-weight: bold;
+  font-size: 17px;
+  position: absolute;
+  left:7%;
+  line-height:60px;
+}
+
+.news-data {
+  padding-top: 4px;
+  background-color:#e0e0d1;
+}
+
+
+/* footer */
+footer {
+  padding-bottom:15px;
+  height: 120px;
+  width: 100%;
+  background-color: #90ec8d;
+}
+
+footer p{
+  font-size:15px;
+  padding:0 15px 0px 15px;
+}
+
+.footer-left {
+  float:left;
+}
+
+.footer-left p {
+  padding:0 15px 0px 15px;
+}
+
+
+.footer-right {
+  float:right;
+  padding-right:30px;
+}
+
+.footer-right h3{
+  padding-bottom:0px;
+}
+
+.btn2 {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.logo-info {
+  width: 200px;
+  margin-top: 10px;
+}
