@@ -1,99 +1,177 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="responsive.css">
-  <link rel="shortcut icon" href="favicon.ico" >
-  <!--     ┬ ┬┌─┐  ┌─┐┬─┐┌─┐        -->
-  <!--     │││├┤   ├─┤├┬┘├┤         -->
-  <!--     └┴┘└─┘  ┴ ┴┴└─└─┘        -->
-  <!--     ╔═╗╦═╗╔═╗╔═╗╔═╗╔╦╗╔═╗    -->
-  <!--     ╠═╝╠╦╝║ ║║ ╦╠═╣ ║ ║╣     -->
-  <!--     ╩  ╩╚═╚═╝╚═╝╩ ╩ ╩ ╚═╝    -->
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/logof46.png">
+    <title>DTS-F46</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="IconHoverEffects/css/component.css">
+	<style> 
+	@keyframes header {
+	0%   {background-color: red;}
+	25%  {background-color: yellow;}
+	50%  {background-color: blue;}
+	100% {background-color: green;}
+	}
+	header {
+	animation-name: header;
+	animation-duration: 10s;
+	}
+	</style>
+  </head>
+  <body>
     <header>
       <div class="container">
         <div class="header-left">
-          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+          <img class="logo" src="image/logof46.png ">
         </div>
-        <span class="fa fa-bars menu-icon"></span>
+        <!-- Tambahkan ikon menu disini -->
+        <span class="menu-icon"><span class="fa fa-bars"></span></span>
         <div class="header-right">
-          <a href="#">Lessons</a>
-          <a href="#">Sign in</a>
-          <a href="#" class="login">Log in</a>
+          <a class="btn-active" href="index.html">Beranda</a>
+          <a href="daftar.html">Daftar</a>
+          <a href="login.html">Log in</a>
         </div>
       </div>
     </header>
-    <div class="top-wrapper">
-      <div class="container">
-        <h1>LEARN TO CODE.</h1>
-        <h1>LEARN TO BE CREATIVE.</h1>
-        <p>Progate is a web service where you can learn programming online.</p>
-        <p>We offer you a fully equipped coding environment to get you started.</p>
-        <div class="btn-wrapper">
-          <a href="#" class="btn signup">Sign up with Email</a>
-          <p>or</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</a>
+    <div class="main">
+      <div class="top-wrapper">
+        <div class="container">
+          <h1>BANGUN KARIRMU.</h1>
+          <h1>SEBAGAI DEVELOPER PROFESIONAL.</h1>
+          <p>Jadilah tuan rumah di negeri sendiri dengan belajar langsung dari para inovator dan developer expert.</p>
+          <p></p>
+          <div class="btn-wrapper">
+            <a href="daftar.html" class="btn mulai">Mulai Sekarang</a>
+          </div>
         </div>
+      </div>
+      <div class="lesson-wrapper">
+        <div class="container">
+          <div class="heading">
+            <h2>Empat pilar yang dapat kamu manfaatkan.</h2>
+            <h4>Berikut ini adalah empat pilar yang kami siapkan untuk membantumu membangun karir sebagai developer profesional.</h4>
+          </div>
+          <div class="lessons">
+            <div class="lesson">
+              <div class="lesson-icon">
+                <img src="image/academy.png ">
+                 <p>ACADEMY</p>
+              </div>
+               <p class="text-contents">Belajar menggunakan kurikulum yang telah divalidasi industri IT internasional seperti Google, Microsoft, dan LINE.</p>
+            </div>
+            <div class="lesson">
+              <div class="lesson-icon">
+                <img src=" image/challenge.png ">
+                <p>CHALLENGE</p>
+              </div>
+              <p class="text-contents">Uji kemampuanmu dengan mengikuti Challenge yang diselenggarakan oleh perusahaan IT nasional dan multi-nasional.</p>
+            </div>
+            <div class="lesson">
+              <div class="lesson-icon">
+                <img src=" image/event.png ">
+                <p>EVENT</p>
+              </div>
+              <p class="text-contents">Bangun jejaring luas. Temui langsung para pelaku IT untuk saling berbagi dan belajar. Cari Event terdekat dari kotamu.</p>
+            </div>
+            <div class="lesson">
+              <div class="lesson-icon">
+                <img src=" image/job-platform.png">
+                <p>JOB PLATFORM</p>
+              </div>
+              <p class="text-contents">Cari lowongan pekerjaan khusus developer. Untuk perusahaan, temukan talenta digital yang Anda butuhkan. Bersama membangun ekosistem IT Indonesia.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+      <div class="information-wrapper">
+        <div class="container">
+          <div class="heading-information">
+            <h2>Partner Kami</h2>
+            <h3>Kami bekerja sama dengan perusahaan dan instansi untuk membangun sumber daya manusia yang unggul.</h3>
+          </div>
+		<div class="partners">
+			<div class="partner">
+				<img class="partner-icon" src=" image/kemkominfo.png "> 
+			</div>
+			<div class="partner">
+				<img class="partner-icon" src=" image/progate.png "> 
+			</div>
+			<div class="partner">
+				<img class="partner-icon" src=" image/ristekdikti.png "> 
+			</div>
+			<div class="partner">
+				<img class="partner-icon" src=" image/kemendikbud.png "> 
+			</div>
+			<div class="partner">
+				<img class="partner-icon" src=" image/kemenaker.png "> 
+			</div>
+			<div class="partner">
+				<img class="partner-icon" src=" image/kemenpar.png "> 
+			</div>
+			<div class="partner">
+				<img class="partner-icon" src=" image/bumn.png "> 
+			</div>
+			<div class="partner">
+				<img class="partner-icon" src=" image/tvri.png "> 
+			</div>
+			<div class="clear"></div>
+		</div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3 class="form-title">Hubungi Kami</h3>
+        <h4 style="text-align: center;">Silahkan mengirim pesan untuk menghubungi kami</h4>
+        <p>Nama</p>
+        <input>
+        
+        <p>Email</p>
+        <input>
+
+        <p>Nomer Telepon/HP</p>
+        <input>
+
+        <p>Pesan</p>
+        <textarea></textarea>
+        
+        <p></p>
+        <a href="#" class="btn2 kirim">Kirim</a>
       </div>
     </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Learn Where to Get Started!</h2>
-        </div>
-        <div class="lessons">
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/html.png">
-              <p>HTML & CSS</p>
-            </div>
-            <p class="text-contents">Languages used to build and design the appearances of your websites. HTML adds the structure, and CSS styles it.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-              <p>jQuery</p>
-            </div>
-            <p class="text-contents">A fast, feature-rich and easy-to-use JavaScript library that handles animations and Ajax requests.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/ruby.png">
-              <p>Ruby</p>
-            </div>
-            <p class="text-contents">A dynamic, general-purpose language that is simple and productive. It is commonly used around the world to build web applications.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
-              <p>PHP</p>
-            </div>
-            <p class="text-contents">An open source scripting language that can be embedded into HTML, and well suited for web development.</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
-    </div>
-    <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Ready to become an awesome programmer?</h2>
-          <h3>Let's learn to code, learn to be creative!</h3>
-        </div>
-        <span class="btn message">Start Learning</span>
-      </div>
+    
+	<div class="news-wrapper">
+		<div class="container">
+			<div class="news">
+				<div class="news-title">
+					Informasi
+				</div>
+				<div class="news-data">
+				<marquee onmouseover="this.stop()" onmouseout="this.start()">
+				  <p>
+					Digital Talent Scholarship adalah beasiswa yang diselenggarakan oleh Kementerian Komunikasi dan Informatika Republik Indonesia yang dapat diakses melalui situs <a href="https://digitalent.kominfo.go.id/" target="_blank">www.digitalent.kominfo.go.id</a> dan bekerja sama dengan Progate (<a href="https://www.progate.com" target="_blank">www.progate.com</a>)
+				  </p>
+				</marquee>
+				</div>
+			</div>
+		</div>
     </div>
     <footer>
-      <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
+      <div class="container">        
+        <div class="footer-left">
+          <img class="logo-footer" src="image/logof46.png ">
+          <p>Inspire Our Life</p>
+        </div>
+        <div class="footer-right">
+          <p>Ikuti Kami</p>
+          <img src="image/instagram.png" alt="instagram">
+          <img src="image/facebook.png" alt="facebook">
+          <img src="image/twitter.png" alt="twitter">
+          <img src="image/youtube.png" alt="youtube">
+        </div>
       </div>
     </footer>
   </body>
